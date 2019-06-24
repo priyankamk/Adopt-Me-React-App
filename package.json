@@ -1,0 +1,26 @@
+{
+  "name": "adopt-me-react-app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "format": "prettier \"src/**/*.{js,html}\" --write",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/priyankamk/Adopt-Me-React-App.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/priyankamk/Adopt-Me-React-App/issues"
+  },
+  "homepage": "https://github.com/priyankamk/Adopt-Me-React-App#readme",
+  "devDependencies": {
+    "eslint": "^6.0.0",
+    "eslint-config-prettier": "^5.0.0",
+    "prettier": "^1.18.2"
+  }
+}
