@@ -1,6 +1,7 @@
 import React from "react";
 import pet from "@frontendmasters/pet";
 import Carousel from "./Carousel";
+import ErrorBoundary from "./ErrorBoundary";
 
 class Details extends React.Component {
   state = { loading: true };
@@ -8,6 +9,7 @@ class Details extends React.Component {
   // like useEffect - run once when it is created
   // used for Ajax request
   componentDidMount() {
+    // throw new Error("lol");
     // this is immutable - this.prop - coming from the parent.
     // arrow function does not create new context.
     pet.animal(this.props.id).then(({ animal }) => {
@@ -42,4 +44,10 @@ class Details extends React.Component {
     );
   }
 }
-export default Details;
+export default function DetailsWithErrorBoundary(props) {
+  return (
+    <ErrorBoundary>
+      <Details {...props} />
+    </ErrorBoundary>
+  );
+}
