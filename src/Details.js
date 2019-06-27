@@ -58,7 +58,7 @@ class Details extends React.Component {
                 onClick={this.toggleModal}
                 style={{ backgroundColor: themeHook[0] }}
               >
-                Adobt {name}
+                Adopt {name}
               </button>
             )}
           </ThemeContext.Consumer>
