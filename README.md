@@ -2,7 +2,7 @@
 
 - Simple and Easy to use React application.
 - Adopt me is a place where you can adopt pets like cat, dog, bird, Horse, rabbit and many more.
-- Built to learn fundamentals of React like Hooks, Context, Class, Function, Router, Link and generated webpage using API.
+- Built to learn fundamentals of React like Hooks, useState, useEffect, useRef, Context, Class, Function, Router, Link, Redirect, async, await and generated webpage using API.
 
 ## Description
 
